@@ -68,26 +68,13 @@
       <a href="<?php echo base_url(); ?>administrator/halamanbaru" class='btn btn-app'><i class='fa fa-file-text'></i> Halaman</a>
       <a href="<?php echo base_url(); ?>administrator/listberita" class='btn btn-app'><i class='fa fa-television'></i> Berita</a>
       <a href="<?php echo base_url(); ?>administrator/kategoriberita" class='btn btn-app'><i class='fa fa-bars'></i> Kategori</a>
-      <a href="<?php echo base_url(); ?>administrator/tagberita" class='btn btn-app'><i class='fa fa-tag'></i> Tag Berita</a>
-      <a href="<?php echo base_url(); ?>administrator/komentarberita" class='btn btn-app'><span class='badge bg-green'><?php echo $jmlberita; ?></span><i class='fa fa-comments'></i> Komen. Berita</a>
-      <a href="<?php echo base_url(); ?>administrator/sensorkomentar" class='btn btn-app'><i class='fa fa-bell-slash'></i> Sensor</a>
       <a href="<?php echo base_url(); ?>administrator/album" class='btn btn-app'><i class='fa fa-camera-retro'></i> Album</a>
       <a href="<?php echo base_url(); ?>administrator/gallery" class='btn btn-app'><i class='fa fa-camera'></i> Gallery</a>
       <a href="<?php echo base_url(); ?>administrator/playlist" class='btn btn-app'><i class='fa fa-caret-square-o-right'></i> Playlist</a>
       <a href="<?php echo base_url(); ?>administrator/video" class='btn btn-app'><i class='fa fa-play'></i> Video</a>
-      <a href="<?php echo base_url(); ?>administrator/tagvideo" class='btn btn-app'><i class='fa fa-tags'></i> Tag Video</a>
-      <a href="<?php echo base_url(); ?>administrator/komentarvideo" class='btn btn-app'><span class='badge bg-blue'><?php echo $jmlvideo; ?></span><i class='fa fa-comments-o'></i> Komen. Video</a>
-      <a href="<?php echo base_url(); ?>administrator/iklanatas" class='btn btn-app'><i class='fa fa-file-image-o'></i> Ads Atas</a>
       <a href="<?php echo base_url(); ?>administrator/iklansidebar" class='btn btn-app'><i class='fa fa-file-image-o'></i> Ads Sidebar</a>
-      <a href="<?php echo base_url(); ?>administrator/iklanhome" class='btn btn-app'><i class='fa fa-file-image-o'></i> Ads Tengah</a>
       <a href="<?php echo base_url(); ?>administrator/logowebsite" class='btn btn-app'><i class='fa fa-circle-thin'></i> Logo</a>
-      <a href="<?php echo base_url(); ?>administrator/templatewebsite" class='btn btn-app'><i class='fa fa-file'></i> Template</a>
-      <a href="<?php echo base_url(); ?>administrator/background" class='btn btn-app'><i class='fa fa-circle'></i> Background</a>
       <a href="<?php echo base_url(); ?>administrator/agenda" class='btn btn-app'><i class='fa fa-calendar-minus-o'></i> Agenda</a>
-      <a href="<?php echo base_url(); ?>administrator/agenda" class='btn btn-app'><i class='fa fa-calendar-minus-o'></i> Sekilas Info</a>
-      <a href="<?php echo base_url(); ?>administrator/jajakpendapat" class='btn btn-app'><i class='fa fa-bar-chart-o'></i> Polling</a>
-      <a href="<?php echo base_url(); ?>administrator/ym" class='btn btn-app'><i class='fa fa-yahoo'></i> YM</a>
-      <a href="<?php echo base_url(); ?>administrator/download" class='btn btn-app'><i class='fa fa-download'></i> Download</a>
       <a href="<?php echo base_url(); ?>administrator/alamat" class='btn btn-app'><i class='fa fa-bed'></i> Alamat</a>
       <a href="<?php echo base_url(); ?>administrator/pesanmasuk" class='btn btn-app'><span class='badge bg-yellow'><?php echo $jmlpesan; ?></span><i class='fa fa-envelope'></i> Pesan</a>
       <a href="<?php echo base_url(); ?>administrator/manajemenuser" class='btn btn-app'><i class='fa fa-users'></i> Users</a>

@@ -21,10 +21,8 @@
                     <tr><th scope='row'>Keterangan</th>                 <td><textarea id='editor1' class='form-control' name='c'></textarea></td></tr>
                     <tr><th scope='row'>Gambar</th>                     <td><input type='file' class='form-control' name='d'></td></tr>
                     <tr><th scope='row'>Link Youtube</th>               <td><input type='text' class='form-control' name='e' placeholder='Contoh link: http://www.youtube.com/embed/xbuEmoRWQHU'></td></tr>
-                    <tr><th scope='row'>Tag</th>                    <td><div class='checkbox-scroll'>";
-                                                                            foreach ($tag as $tag){
-                                                                                echo "<span style='display:block;'><input type=checkbox value='$tag[tag_seo]' name=f[]> $tag[nama_tag] &nbsp; &nbsp; &nbsp; </span>";
-                                                                            }
+                    ";
+                                                                           
                     echo "</div></td></tr>
                   </tbody>
                   </table>

@@ -6,11 +6,11 @@
                                 <div>
                                     <h2><?php echo $rows['judul']; ?></h2>
 								
-									<div class="post-image">
-                                        <div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
+									<div class="td-post-content td-pb-padding-side">
+                                        <div class="td-post-featured-image" data-plugin-options="{'items':1}">
                                             <div>
                                                 
-											   <?php if ($rows['gambar'] !=''){ echo "<div class='img-thumbnail' style='display:inherit;'><img  class='img-responsive' style='width:20%' src='".base_url()."asset/foto_statis/$rows[gambar]' alt='$rows[judul]' /></a></div>"; } ?>
+											   <?php if ($rows['gambar'] !=''){ echo "<div class='entry-thumb td-animation-stack-type0-2' style='display:inherit;'><img  class='img-responsive' style='width:20%' src='".base_url()."asset/foto_statis/$rows[gambar]' alt='$rows[judul]' /></a></div>"; } ?>
 										   
                                             </div>
                                         </div>

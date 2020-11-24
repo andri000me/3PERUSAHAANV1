@@ -26,10 +26,8 @@
                     <tr><th scope='row'>Isi Berita</th>             <td><textarea id='editor1' class='form-control' name='h' style='height:260px' required></textarea></td></tr>
                     <tr><th scope='row'>Gambar</th>                 <td><input type='file' class='form-control' name='k'></td></tr>
                     <tr><th scope='row'>Ket. Gambar</th>            <td><input type='text' class='form-control' name='i'></td></tr>
-                    <tr><th scope='row'>Tag</th>                    <td><div class='checkbox-scroll'>";
-                                                                            foreach ($tag as $tag){
-                                                                                echo "<span style='display:block;'><input type=checkbox value='$tag[tag_seo]' name=j[]> $tag[nama_tag] &nbsp; &nbsp; &nbsp; </span>";
-                                                                            }
+                    ";
+                                                                
                     echo "</div></td></tr>
                   </tbody>
                   </table>

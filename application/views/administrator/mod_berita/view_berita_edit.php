@@ -30,12 +30,8 @@
                     <tr><th scope='row'>Ganti Gambar</th>                 <td><input type='file' class='form-control' name='k'>";
                                                                                if ($rows['gambar'] != ''){ echo "<i style='color:red'>Lihat Gambar Saat ini : </i><a target='_BLANK' href='".base_url()."asset/foto_berita/$rows[gambar]'>$rows[gambar]</a>"; } echo "</td></tr>
                     <tr><th scope='row'>Ket. Gambar</th>            <td><input type='text' class='form-control' name='i' value='$rows[keterangan_gambar]'></td></tr>
-                    <tr><th scope='row'>Tag</th>                    <td><div class='checkbox-scroll'>";
-                                                                            $_arrNilai = explode(',', $rows['tag']);
-                                                                            foreach ($tag as $tag){
-                                                                                $_ck = (array_search($tag['tag_seo'], $_arrNilai) === false)? '' : 'checked';
-                                                                                echo "<span style='display:block;'><input type=checkbox value='$tag[tag_seo]' name=j[] $_ck> $tag[nama_tag] &nbsp; &nbsp; &nbsp; </span>";
-                                                                            }
+                    ";
+                                                                  
                     echo "</div></td></tr>
                   </tbody>
                   </table>
